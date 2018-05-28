@@ -59,7 +59,7 @@ for (var i = 0; i < books.length; i++) {
 	for (var j = 0; j < arrKeysEntries.length; j++) {
 		liBook = document.createElement("LI");
 		liBook.setAttribute("id", arrKeys[j]);
-		liBook.appendChild(document.createTextNode(arrKeysEntries[j][0]+" /_________/ "+ arrKeysEntries[j][1]));
+		liBook.appendChild(document.createTextNode(arrKeysEntries[j][0]+" .... "+ arrKeysEntries[j][1]));
 		ulBook.appendChild(liBook);
 	}
 }
